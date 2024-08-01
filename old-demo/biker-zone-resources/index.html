@@ -10,12 +10,37 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font Poppins -->
+    <style>
+      .poppins-font {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "color-primary": "#E76F51",
+              "color-primary-bg": "#264653",
+            },
+          },
+        },
+      };
+    </script>
   </head>
-  <body>
-    <header>
+  <body class="poppins-font">
+    <header class="md:container md:mx-auto">
       <nav>
         <div class="navbar bg-base-100">
-          <div class="navbar-start">
+          <div class="flex-1">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
@@ -35,7 +60,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                class="menu menu-sm dropdown-content bg-base-100 text-base rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
                 <li><a>Home</a></li>
                 <li><a>Shop</a></li>
@@ -43,23 +68,142 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl">Biker Zone</a>
+            <a class="btn btn-ghost text-4xl">Biker Zone</a>
           </div>
           <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+            <ul class="menu menu-horizontal text-base px-1 font">
               <li><a>Home</a></li>
               <li><a>Shop</a></li>
               <li><a>News</a></li>
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <div class="navbar-end">
-            <button class="btn btn-error">Login</button>
+          <div class="">
+            <button class="btn bg-color-primary text-white">Login</button>
           </div>
         </div>
       </nav>
+
+      <!-- slider -->
+      <div
+        class="carousel w-full lg:h-[600px] bg-color-primary-bg rounded-lg mt-4 lg:mt-10"
+      >
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="flex gap-20 lg:flex-row flex-col lg:p-24 p-4">
+            <div class="space-y-7 flex-1">
+              <h2 class="text-3xl lg:text-6xl font-bold">
+                Honda CBR <br />
+                300R
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt placeat repellat esse sapiente iusto beatae voluptatum
+                illo neque debitis modi vel nulla enim quae saepe, itaque ipsam
+                molestiae consequuntur. Facere provident temporibus tempora modi
+                cum et veritatis unde quod repellendus!
+              </p>
+              <button class="btn bg-color-primary text-white">Purchase</button>
+            </div>
+            <div class="flex-1">
+              <img class="w-[500px]" src="./images/slider/bike1.png" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide4" class="btn btn-circle lg:mt-10 mt-16">❮</a>
+            <a href="#slide2" class="btn btn-circle lg:mt-10 mt-16">❯</a>
+          </div>
+        </div>
+
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row gap-20 lg:p-24 p-4">
+            <div class="space-y-7 flex-1">
+              <h2 class="text-3xl lg:text-6xl font-bold">
+                Ducati XDIAVEL <br />
+                S-73
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                hic quod, rerum obcaecati ducimus quis dolorem placeat fugiat
+                dignissimos in debitis earum officia esse exercitationem quia ut
+                quibusdam? Quod debitis nobis eos? Ipsum dolor deserunt aperiam
+                quasi deleniti, sunt dolores!
+              </p>
+              <button class="btn bg-color-primary text-white">Purchase</button>
+            </div>
+            <div class="flex-1">
+              <img src="./images/slider/bike2.png" class="w-[600px]" />
+            </div>
+          </div>
+
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide1" class="btn btn-circle lg:mt-10 mt-16">❮</a>
+            <a href="#slide3" class="btn btn-circle lg:mt-10 mt-16">❯</a>
+          </div>
+        </div>
+
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row gap-20 lg:p-24 p-4">
+            <div class="space-y-7 flex-1">
+              <h2 class="text-3xl lg:text-6xl font-bold">
+                Motorcycles<br />
+                & Scooters
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                culpa, molestiae id ad architecto odio nobis, sapiente quae
+                optio laudantium quod obcaecati repellat quo aliquam minus,
+                voluptatem fugit ipsam! Illum voluptatem, mollitia ipsam
+                voluptates culpa obcaecati? Ut porro natus sequi. cum.
+              </p>
+              <button class="btn bg-color-primary text-white">Purchase</button>
+            </div>
+            <div class="flex-1">
+              <img src="./images/slider/bike3.png" class="w-[600px]" />
+            </div>
+          </div>
+
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide2" class="btn btn-circle lg:mt-10 mt-16">❮</a>
+            <a href="#slide4" class="btn btn-circle lg:mt-10 mt-16">❯</a>
+          </div>
+        </div>
+
+        <div id="slide4" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row gap-20 lg:p-24 p-4">
+            <div class="space-y-7 flex-1">
+              <h2 class="text-3xl lg:text-6xl font-bold">
+                2021 Honda <br />
+                CBR500R
+              </h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+                maiores dolorum, repellendus facere adipisci accusamus! Quidem
+                repellendus hic provident ullam iusto totam minima voluptatibus
+                dolores, nam, reprehenderit vero assumenda soluta quis iure
+                labore animi accusantium repellat reiciendis in.
+              </p>
+              <button class="btn bg-color-primary text-white">Purchase</button>
+            </div>
+            <div class="flex-1">
+              <img src="./images/slider/bike4.png" class="w-[600px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide3" class="btn btn-circle lg:mt-10 mt-16">❮</a>
+            <a href="#slide1" class="btn btn-circle lg:mt-10 mt-16">❯</a>
+          </div>
+        </div>
+      </div>
     </header>
-    <main></main>
+    <main class="md:container md:mx-auto"></main>
     <footer></footer>
   </body>
 </html>
