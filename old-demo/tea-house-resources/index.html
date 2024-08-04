@@ -217,6 +217,7 @@
           </p>
         </div>
       </section>
+
       <!-- Great Tea, Freshly Presented -->
 
       <!-- News & Events -->
@@ -319,7 +320,9 @@
           </button>
         </div>
 
-        <div class="relative">
+        <div
+          class="relative flex flex-col justify-center items-center mt-10 lg:mt-0"
+        >
           <!-- next review card -->
           <div
             class="bg-white opacity-40 mb-10 z-10 dark:bg-gray-900 relative p-10 space-y-5 rounded-xl w-5/6 border-2 dark:border-gray-200"
@@ -343,7 +346,7 @@
           </div>
           <!-- Current review card -->
           <div
-            class="bg-white absolute z-20 -left-32 top-40 dark:bg-gray-900 p-10 space-y-5 rounded-xl w-5/6 border-2 dark:border-gray-200"
+            class="bg-white absolute z-20 lg:-left-32 -left-2 top-40 lg:top-40 dark:bg-gray-900 p-10 space-y-5 rounded-xl w-5/6 border-2 dark:border-gray-200"
           >
             <img
               src="./images/client.png"
@@ -358,7 +361,7 @@
             <span class="text-xl dark:text-gray-400 font-bold"
               >Businessman</span
             >
-            <div class="flex justify-end">
+            <div class="flex justify-end mb-">
               <img src="./images/circles.png" alt="" />
             </div>
           </div>
@@ -387,65 +390,65 @@
       </section>
       <!-- Meet Our Super Clients -->
     </main>
+    <!-- from-[#ff00001a] to-[#ff88381a] text-base-content -->
     <footer
       class="bg-gradient-to-r from-[#ff00001a] to-[#ff88381a] text-base-content p-10"
     >
       <div
-        class="my-10 container text-center mx-auto flex flex-col lg:flex-row justify-between"
+        class="my-10 container text-center mx-auto items-center flex lg:flex-row justify-between"
       >
-        <img class="ml-24" src="./images/cup.png" alt="" />
-
+        <img class="w-24" src="./images/cup.png" alt="" />
         <p>
-          <span class="ml-2">Ready to get strated?</span>
+          <span class="lg:mr-4 font-bold text-lg">Ready to get started?</span>
           <button
-            class="p-4 rounded-lg font-bold text-white bg-gradient-to-r from-[#FF0000] to-[#FF8938] mr-20"
+            class="p-2 lg:p-4 mt-5 lg:mt-0 text-base rounded-lg font-bold text-white bg-gradient-to-r from-[#FF0000] to-[#FF8938] lg:mr-5"
           >
             Get Started
           </button>
         </p>
       </div>
+
       <div
-        class="footer flex gap-64 flex-col lg:flex-row justify-center items-center lg:flex-row"
+        class="grid grid-cols-2 lg:grid-cols-4 justify-center items-center lg:gap-36 gap-10 w-fit mx-auto"
       >
-        <nav>
+        <nav class="flex flex-col">
           <h6 class="footer-title">Services</h6>
           <a class="link link-hover">Branding</a>
           <a class="link link-hover">Design</a>
           <a class="link link-hover">Marketing</a>
           <a class="link link-hover">Advertisement</a>
         </nav>
-        <nav>
+        <nav class="flex flex-col">
           <h6 class="footer-title">Company</h6>
           <a class="link link-hover">About us</a>
           <a class="link link-hover">Contact</a>
           <a class="link link-hover">Jobs</a>
           <a class="link link-hover">Press kit</a>
         </nav>
-        <nav>
+        <nav class="flex flex-col">
           <h6 class="footer-title">Legal</h6>
           <a class="link link-hover">Terms of use</a>
           <a class="link link-hover">Privacy policy</a>
           <a class="link link-hover">Cookie policy</a>
         </nav>
-        <form>
-          <h6 class="footer-title">Newsletter</h6>
-          <fieldset class="form-control w-80">
-            <label class="label">
-              <span class="label-text">Enter your email address</span>
-            </label>
-            <div class="join">
-              <input
-                type="text"
-                placeholder="username@site.com"
-                class="input input-bordered join-item"
-              />
-              <button class="btn btn-primary join-item">Subscribe</button>
-            </div>
-          </fieldset>
-        </form>
+        <div>
+          <input
+            type="text"
+            placeholder="Type here"
+            class="p-5 lg:w-56 w-32 mb-5 lg:mb-0 outline-none bg-transparent border-b-2 border-gray-600"
+          />
+          <button
+            class="btn rounded-full bg-gradient-to-r from-[#FF0000] to-[#FF8938] border-transparent"
+          >
+            <i class="fa-solid fa-location-arrow"></i>
+          </button>
+        </div>
       </div>
-      <div class="mt-20">
-        <aside class="flex flex-col justify-center items-center">
+
+      <div class="lg:mt-20 mt-10">
+        <aside
+          class="flex flex-col font-bold text-base justify-center items-center text-center"
+        >
           <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
         </aside>
       </div>
