@@ -27,7 +27,7 @@ function UsedIndustry() {
           className="absolute lg:ml-[730px] lg:-mt-16 ml-36 -mt-16"
           alt=""
         />
-        <h1 className="lg:text-4xl text-2xl text-center w-[400px] mx-auto">
+        <h1 className="lg:text-4xl text-2xl text-center lg:w-[400px] mx-auto">
           Put the spotlight on the main features
         </h1>
         <div className="flex justify-center flex-col lg:flex-row items-center lg:gap-10 mt-10">

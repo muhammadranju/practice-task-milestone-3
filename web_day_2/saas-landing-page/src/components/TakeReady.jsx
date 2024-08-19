@@ -57,7 +57,7 @@ function TakeReady() {
             <img src="../../images/right-icon.png" alt="" /> Multi layout <br />
             template
           </span>
-          <div className="border border-dashed tracking-widest w-96 dark:border-slate-500 border-slate-800	"></div>
+          <div className="border border-dashed tracking-widest lg:w-96 dark:border-slate-500 border-slate-800	"></div>
           <div className="space-x-4">
             <button className="btn bg-indigo-700 border-0 text-white hover:bg-indigo-800 lg:px-10">
               Learn More
