@@ -1,16 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 function Header() {
   return (
-    <header className="bg-slate-100 ">
-      <div className="container mx-auto pt-14 pb-5 lg:pt-28 md:pt-20 lg:pb-10  flex flex-col  lg:flex-row  gap-10 lg:gap-32 px-3 lg:px-0">
-        <div className="dark:text-slate-800 flex-1 ">
+    <header className="bg-slate-100 dark:bg-slate-800 dark:bg-opacity-20">
+      <div className="container mx-auto  pt-14 pb-5 lg:pt-28 md:pt-20 lg:pb-10  flex flex-col  lg:flex-row  gap-10 lg:gap-32 px-3 lg:px-0">
+        <div className="dark:text-slate-100 flex-1 ">
           <span className="uppercase font-bold tracking-widest">
             Saas Website
           </span>
           <h1 className="lg:text-6xl text-5xl my-5 font-extrabold lg:w-[700px]">
             Stay connected with our cloud software
           </h1>
-          <p className="text-slate-600 lg:w-[500px] my-5">
+          <p className="text-slate-800 dark:text-slate-200 lg:w-[500px] my-5">
             A cloud application, or cloud app, is a software program where
             cloud-based and local components work together.
           </p>
@@ -24,7 +24,7 @@ function Header() {
             </button>
           </div>
           <img src="../../images/star.png" className="mt-10" alt="" />
-          <p className="text-slate-800 my-5 font-medium text-lg lg:w-[500px]">
+          <p className="dark:text-slate-100 text-slate-800 my-5 font-medium text-lg lg:w-[500px]">
             "We highly recommend it to any business looking to improve their
             efficiency and profitability."
           </p>

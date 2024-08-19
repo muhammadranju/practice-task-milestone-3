@@ -1,6 +1,6 @@
 function Events() {
   return (
-    <section className="dark:text-slate-800 bg-slate-100 lg:py-20 py-16">
+    <section className="dark:text-slate-800 bg-slate-100 dark:bg-opacity-20 dark:bg-slate-800 lg:py-20 py-16">
       <div className="container mx-auto  lg:px-0 px-3 flex flex-col lg:flex-row justify-center items-center">
         <div className="flex-1">
           <img src="../../images/Frame-4.png" className="w-fit" alt="" />
@@ -12,10 +12,10 @@ function Events() {
             className="absolute lg:-mt-5 lg:-ml-7 -mt-4 -ml-2"
             alt=""
           />
-          <h1 className="lg:text-5xl text-3xl font-extrabold lg:w-[500px]">
+          <h1 className="lg:text-5xl text-3xl dark:text-slate-100 font-extrabold lg:w-[500px]">
             Where your events come together
           </h1>
-          <p className="lg:w-[500px]">
+          <p className="lg:w-[500px] dark:text-slate-300">
             A cloud application, or cloud app, is a software program where
             cloud-based and local components work together.
           </p>
