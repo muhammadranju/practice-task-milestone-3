@@ -5,6 +5,7 @@ import TakeReady from "./components/TakeReady";
 import UsedIndustry from "./components/UsedIndustry";
 import Compared from "./components/Compared";
 import InTouch from "./components/InTouch";
+import Banner from "./components/Banner";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TakeReady />
       <Compared />
       <InTouch />
+      <Banner />
     </>
   );
 }
