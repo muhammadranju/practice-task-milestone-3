@@ -2,8 +2,13 @@
 function Compared() {
   return (
     <section className="dark:text-slate-800 bg-slate-100 lg:py-20 py-16">
-      <div className="container mx-auto  lg:px-0 px-3 text">
-        <h1 className="text-center text-5xl font-extrabold">
+      <div className="container mx-auto relative  lg:px-0 px-3 text">
+        <img
+          src="../../images/Sketch-annotation.png"
+          className="absolute lg:ml-[750px] lg:-mt-10 -mt-10 ml-44"
+          alt=""
+        />
+        <h1 className="text-center lg:text-5xl text-3xl font-extrabold">
           Compared to competitors
         </h1>
         <div className="w-full flex flex-col justify-center items-center mt-10">

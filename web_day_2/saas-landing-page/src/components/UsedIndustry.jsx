@@ -32,7 +32,7 @@ function UsedIndustry() {
         </h1>
         <div className="flex justify-center flex-col lg:flex-row items-center lg:gap-10 mt-10">
           <div className="text-center flex flex-col justify-center items-center flex-1 border p-2 rounded-lg lg:border-0">
-            <div className="dark:bg-white mt-2 bg-slate-200 w-14 h-14 rounded-full flex justify-center items-center">
+            <div className="dark:bg-white mt-2 bg-slate-200 w-14 h-14 rounded-full flex justify-center items-center shadow-xl">
               <img src="../../images/icon1.png" alt="" />
             </div>
             <h3 className="mt-8 text-2xl">Fully responsive</h3>
@@ -47,7 +47,7 @@ function UsedIndustry() {
             </a>
           </div>
           <div className="text-center flex flex-col justify-center items-center flex-1 lg:mt-0 mt-4 border p-2 rounded-lg lg:border-0">
-            <div className="dark:bg-white mt-2 bg-slate-200 w-14 h-14 rounded-full flex justify-center items-center">
+            <div className="dark:bg-white mt-2 shadow-xl bg-slate-200 w-14 h-14 rounded-full flex justify-center items-center">
               <img src="../../images/icon2.png" alt="" />
             </div>
             <h3 className="mt-8 text-2xl">Blazing Fast</h3>
@@ -62,7 +62,7 @@ function UsedIndustry() {
             </a>
           </div>
           <div className="text-center flex flex-col justify-center items-center flex-1 g:mt-0 mt-4 border p-2 rounded-lg lg:border-0">
-            <div className="dark:bg-white mt-2 bg-slate-200  w-14 h-14 rounded-full flex justify-center items-center">
+            <div className="dark:bg-white mt-2 bg-slate-200  w-14 h-14 rounded-full flex justify-center items-center shadow-xl">
               <img src="../../images/icon3.png" alt="" />
             </div>
             <h3 className="mt-8 text-2xl">Multi layout template</h3>

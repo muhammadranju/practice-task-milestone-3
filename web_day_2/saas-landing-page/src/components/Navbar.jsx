@@ -67,10 +67,10 @@ export function Navbar() {
         </ul>
       </div>
       <div className="navbar-end space-x-3">
-        <button className="btn bg-transparent hidden lg:block hover:bg-transparent border-none lg:px-7 text-white">
+        <button className="btn bg-transparent hidden lg:block hover:bg-transparent border-none lg:px-7 dark:text-white">
           Sign
         </button>
-        <button className="btn bg-indigo-700 lg:px-7 hover:bg-indigo-900  text-white">
+        <button className="btn  bg-indigo-700 lg:px-7 hover:bg-indigo-900  text-white">
           Started for free
           <span className="-rotate-90">
             <SvgArrowIcon />

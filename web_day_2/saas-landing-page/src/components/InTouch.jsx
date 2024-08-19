@@ -13,7 +13,11 @@ function InTouch() {
               className="flex flex-col lg:flex-row 
             items-center gap-3"
             >
-              <img src="../../images/icon4.png" alt="" />
+              <img
+                src="../../images/icon4.png"
+                className="shadow-xl rounded-xl"
+                alt=""
+              />
               <span>+ 381 9875 6231</span>
             </div>
 
@@ -21,7 +25,11 @@ function InTouch() {
               className="flex flex-col lg:flex-row 
             items-center gap-3"
             >
-              <img src="../../images/icon5.png" alt="" />
+              <img
+                src="../../images/icon5.png"
+                className="shadow-xl rounded-xl"
+                alt=""
+              />
               <span>mail@uifry.com</span>
             </div>
           </div>
@@ -45,7 +53,7 @@ function InTouch() {
           className="absolute lg:ml-[1100px] lg:mt-0 mt-[500px] lg:w-fit"
           alt=""
         />
-        <div className="bg-white p-10 rounded-xl lg:mt-0 mt-20 relative z-40  lg:mr-40 text-slate-800 space-y-4 ">
+        <div className="bg-white p-10 rounded-xl lg:mt-0 mt-20 relative z-40  lg:mr-40 text-slate-800 space-y-4 shadow-lg">
           <div className="flex lg:flex-row flex-col lg:gap-x-4">
             <div className="flex flex-col">
               <label>Name</label>

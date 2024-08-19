@@ -6,6 +6,7 @@ import UsedIndustry from "./components/UsedIndustry";
 import Compared from "./components/Compared";
 import InTouch from "./components/InTouch";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Compared />
       <InTouch />
       <Banner />
+      <Footer />
     </>
   );
 }

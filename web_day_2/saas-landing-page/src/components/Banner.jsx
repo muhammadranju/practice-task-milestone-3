@@ -1,7 +1,7 @@
 function Banner() {
   return (
     <section
-      className="container flex flex-col lg:flex-row justify-center
+      className="container flex flex-col text-white lg:flex-row justify-center
      items-center mx-auto px-3 lg:px-0 rounded-xl gap-x-10 pt-10  bg-indigo-700"
     >
       <div className="flex-1 lg:ml-20 space-y-10">
