@@ -1,6 +1,6 @@
 function Events() {
   return (
-    <section className="dark:text-slate-800 bg-slate-100 lg:py-32 py-16">
+    <section className="dark:text-slate-800 bg-slate-100 lg:py-20 py-16">
       <div className="container mx-auto  lg:px-0 px-3 flex flex-col lg:flex-row justify-center items-center">
         <div className="flex-1">
           <img src="../../images/Frame-4.png" className="w-fit" alt="" />
