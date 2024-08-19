@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar";
 import TakeReady from "./components/TakeReady";
 import UsedIndustry from "./components/UsedIndustry";
 import Compared from "./components/Compared";
+import InTouch from "./components/InTouch";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Events />
       <TakeReady />
       <Compared />
+      <InTouch />
     </>
   );
 }
