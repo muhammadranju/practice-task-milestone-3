@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import { Navbar } from "./components/Navbar";
 import TakeReady from "./components/TakeReady";
 import UsedIndustry from "./components/UsedIndustry";
+import Compared from "./components/Compared";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <UsedIndustry />
       <Events />
       <TakeReady />
+      <Compared />
     </>
   );
 }
